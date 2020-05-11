@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlynhatrof">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/motel"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SuaDichVuActivity"></activity>
+        <activity android:name=".ThemDichVuActivity" />
+        <activity android:name=".DichVuActivity" />
+        <activity android:name=".SuaPhongTroActivity" />
+        <activity android:name=".ThemPhongTroActivity" />
+        <activity android:name=".PhongTroActivity" />
+        <activity android:name=".SuaThietBiActivity" />
+        <activity android:name=".ThemThietBiActivity" />
+        <activity android:name=".ThietBiActivity" />
+        <activity android:name=".SuaQuyDinhActivity" />
+        <activity android:name=".ThemQuyDinhActivity" />
+        <activity android:name=".QuyDinhActivity" />
+        <activity android:name=".SuaKhachHangActivity" />
+        <activity android:name=".ThemKhachHangActivity" />
+        <activity android:name=".KhachHangActivity" />
+        <activity android:name=".ChucNangActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

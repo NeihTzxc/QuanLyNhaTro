@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DichVuActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý dịch vụ"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:background="#0C23AD"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/btnThemDichVu"
+            android:background="@drawable/buttoninsert"
+            ></ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:text="Thêm dịch vụ"
+            android:textStyle="bold"
+            android:textColor="#1225A2"
+            android:textSize="28dp"
+            ></TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:textColor="#B84E4E"
+            android:id="@+id/btnTroVe"
+            android:text="Quay lại"
+            />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/lvDichVu"
+        ></ListView>
+
+</LinearLayout>

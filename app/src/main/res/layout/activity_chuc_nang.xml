@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ChucNangActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Xin chào admin!"
+    android:textSize="25dp"
+    android:textColor="#F30707"
+    >
+</TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150px">
+        <ImageButton
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/customer"
+            android:id="@+id/btnKhachHang"
+            android:adjustViewBounds="false"
+            ></ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="Quản lý khách hàng"
+            android:textSize="30dp"
+            android:layout_gravity="left"
+
+            android:gravity="left"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150px">
+        <ImageButton
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/quydinh"
+            android:id="@+id/btnQuyDinh"
+            android:adjustViewBounds="false"
+            ></ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="Quản lý quy định"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150px">
+        <ImageButton
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/btnthietbi"
+            android:id="@+id/btnThietBi"
+            android:adjustViewBounds="false"
+            ></ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="Quản lý thiết bị"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/btnphongtro"
+            android:id="@+id/btnPhongTro"
+            android:adjustViewBounds="false"
+            ></ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="Quản lý phòng trọ"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150px">
+        <ImageButton
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/icondiennuoc"
+            android:id="@+id/btnDichVu"
+            android:adjustViewBounds="false"
+            ></ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="Quản lý điện nước"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            ></TextView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnTroVe"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginVertical="450dp"
+        android:text="Trở về"></Button>
+</LinearLayout>
